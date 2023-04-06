@@ -16,7 +16,7 @@ time = "0.3.11"
 anyhow = "1.0"
 serde = "1.0.158"
 uuid = { version = "1.1.2", features = ["serde"] }
-serde_with = { version = "2.0.0", features = ["time_0_3"] }
+serde_with = { version = "2.3.2", features = ["time_0_3"] }
 validator = { version = "0.16.0", features = ["derive"] }
 thiserror = "1.0.40"
 dotenvy = "0.15.7"
