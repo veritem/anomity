@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@tailwindcss/forms':
     specifier: ^0.5.3
@@ -14,10 +18,10 @@ devDependencies:
     version: 1.35.1
   '@sveltejs/adapter-auto':
     specifier: ^2.1.0
-    version: 2.1.0(@sveltejs/kit@1.22.1)
+    version: 2.1.0(@sveltejs/kit@1.22.2)
   '@sveltejs/kit':
-    specifier: ^1.22.1
-    version: 1.22.1(svelte@4.0.5)(vite@4.4.2)
+    specifier: ^1.22.2
+    version: 1.22.2(svelte@4.0.5)(vite@4.4.2)
   '@typescript-eslint/eslint-plugin':
     specifier: ^5.61.0
     version: 5.61.0(@typescript-eslint/parser@5.61.0)(eslint@8.44.0)(typescript@5.1.6)
@@ -403,17 +407,17 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
-  /@sveltejs/adapter-auto@2.1.0(@sveltejs/kit@1.22.1):
+  /@sveltejs/adapter-auto@2.1.0(@sveltejs/kit@1.22.2):
     resolution: {integrity: sha512-o2pZCfATFtA/Gw/BB0Xm7k4EYaekXxaPGER3xGSY3FvzFJGTlJlZjBseaXwYSM94lZ0HniOjTokN3cWaLX6fow==}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
     dependencies:
-      '@sveltejs/kit': 1.22.1(svelte@4.0.5)(vite@4.4.2)
+      '@sveltejs/kit': 1.22.2(svelte@4.0.5)(vite@4.4.2)
       import-meta-resolve: 3.0.0
     dev: true
 
-  /@sveltejs/kit@1.22.1(svelte@4.0.5)(vite@4.4.2):
-    resolution: {integrity: sha512-idFhKVEHuCKbTETvuo3V7UShqSYX9JMKVJXP546dOTkh5ZRejo5XtKtsB5TCSwNBa0TH8hIV44/bnylaFhM1Vg==}
+  /@sveltejs/kit@1.22.2(svelte@4.0.5)(vite@4.4.2):
+    resolution: {integrity: sha512-T6GY5jSfQgoDnNPNqAuDi9IK+ZW0TspzTV16UAN6GTsxbri67DGVIbw7QOXPg8FMrZQMmda1AtAxPMfXbOqCgw==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     requiresBuild: true
@@ -427,7 +431,7 @@ packages:
       devalue: 4.3.2
       esm-env: 1.0.0
       kleur: 4.1.5
-      magic-string: 0.30.0
+      magic-string: 0.30.1
       mime: 3.0.0
       sade: 1.8.1
       set-cookie-parser: 2.6.0
@@ -466,7 +470,7 @@ packages:
       debug: 4.3.4
       deepmerge: 4.3.1
       kleur: 4.1.5
-      magic-string: 0.30.0
+      magic-string: 0.30.1
       svelte: 4.0.5
       svelte-hmr: 0.15.2(svelte@4.0.5)
       vite: 4.4.2(@types/node@18.15.3)
